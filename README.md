@@ -1,5 +1,7 @@
 # Task Manager App
 
+![Task Manager GIF](./taskmanager.gif)
+
 A mobile-responsive Task Manager App built with Next.js 14 to demonstrate drag-and-drop functionality and responsive design.
 
 This project is a showcase for a Frontend Developer's portfolio, demonstrating skills in React, Next.js 14, Tailwind CSS, and modern JavaScript.
@@ -19,7 +21,7 @@ This project is a showcase for a Frontend Developer's portfolio, demonstrating s
 - Next.js 14 (App Router)
 - TypeScript
 - Tailwind CSS
-- `@hello-pangea/dnd` (for drag-and-drop)
+- `@dnd-kit` (for drag-and-drop)
 - `use-local-storage-state` (for localStorage management)
 
 ## Getting Started
