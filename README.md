@@ -1,44 +1,52 @@
-# Task Manager App
+# Task Manager
 
 ![Task Manager GIF](./taskmanager.gif)
 
-A mobile-responsive Task Manager App built with Next.js 14 to demonstrate drag-and-drop functionality and responsive design.
+A modern, mobile-responsive Task Manager application built with Next.js 15 and Tailwind CSS 4. This project demonstrates a clean, intuitive user interface for managing tasks on a Kanban-style board, complete with drag-and-drop functionality and local storage persistence.
 
-This project is a showcase for a Frontend Developer's portfolio, demonstrating skills in React, Next.js 14, Tailwind CSS, and modern JavaScript.
+**Live Demo:** [https://taskmanager-omega-ten.vercel.app/](https://taskmanager-omega-ten.vercel.app/)
 
-## Features
+## Core Features
 
-- A Kanban board with three columns: "To Do", "In Progress", "Done".
-- A form to add new tasks (title, description).
-- Drag-and-drop tasks between columns.
-- Tasks are persisted in the browser's localStorage.
-- A button to clear all tasks.
-- Mobile-first, responsive design that works on mobile, tablet, and desktop.
-- Uses Server Components for the main page and Client Components for interactive features.
+- **Interactive Kanban Board**: A three-column layout ("To Do", "In Progress", "Done") for clear task organization.
+- **Seamless Drag & Drop**: Smoothly reorder tasks within and between columns, powered by `dnd-kit`.
+- **Add & Clear Tasks**: A simple and intuitive form to add new tasks, plus a one-click button to clear the board.
+- **Persistent State**: Your tasks are saved directly in your browser's `localStorage`, so your session is always preserved.
+- **Fully Responsive**: The UI gracefully adapts from a multi-column desktop layout to a single-column, tabbed view on mobile devices.
 
-## Tech Stack
+## Technical Implementation
 
-- Next.js 14 (App Router)
-- TypeScript
-- Tailwind CSS
-- `@dnd-kit` (for drag-and-drop)
-- `use-local-storage-state` (for localStorage management)
+This project was built to showcase proficiency in modern frontend technologies and best practices.
 
-## Getting Started
+- **Framework**: Built with **Next.js 15** using the App Router, leveraging both Server Components for optimized initial loads and Client Components for rich interactivity.
+- **Styling**: Styled with **Tailwind CSS v4**, using its CSS-first configuration approach with `@theme` for custom colors and design tokens.
+- **Drag & Drop**: Implemented using **`dnd-kit`**, a lightweight and modern library for building performant and accessible drag-and-drop interfaces.
+- **State Management**: Client-side state and `localStorage` integration are managed efficiently with the **`use-local-storage-state`** hook.
+- **TypeScript**: Fully typed codebase for improved developer experience and code maintainability.
 
-1.  **Install dependencies**:
+## Local Development
+
+To run this project locally, follow these steps:
+
+1.  **Clone the repository**:
+
+    ```bash
+    git clone <your-repo-url>
+    cd task_manager
+    ```
+
+2.  **Install dependencies**:
 
     ```bash
     npm install
     ```
 
-2.  **Run the development server**:
-
+3.  **Run the development server**:
     ```bash
     npm run dev
     ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the application running.
 
 ## Mobile Responsiveness Notes
 
